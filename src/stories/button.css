@@ -10,7 +10,7 @@
 .storybook-button--primary {
   border-radius: 8px;
   background: white;
-  border: solid 2px red;
+  border: solid 1px #3B3C3E;
   color: #282828;
   height: 34px;
   display: flex;
