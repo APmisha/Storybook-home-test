@@ -17,11 +17,4 @@ const config = {
   },
   staticDirs: ["../public"],
 };
-
-module.exports = {
-  features: {
-    buildStoriesJson: true
-  }
-};
-
 export default config;
