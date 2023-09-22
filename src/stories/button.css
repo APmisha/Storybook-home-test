@@ -22,7 +22,7 @@
 }
 
 .storybook-button--primary:hover {
-  background: lightgray;
+  background: #F1F1F1;
   transition: 300ms;
 }
 
