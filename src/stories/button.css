@@ -19,6 +19,7 @@
   align-items: center;
   padding: 0px 14px 1px 14px;
   transition: 300ms;
+  font-size: 14px;
 }
 
 .storybook-button--primary:hover {
