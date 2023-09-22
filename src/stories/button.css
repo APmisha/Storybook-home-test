@@ -28,10 +28,27 @@
 }
 
 .storybook-button--secondary {
-  color: #333;
-  background-color: transparent;
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset;
+  border-radius: 8px;
+  background: #0B82C4;
+  border: solid 1px #0B82C4;
+  color: white;
+  height: 34px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  padding: 0px 14px 1px 14px;
+  transition: 300ms;
+  font-size: 14px;
+  font-weight: 700;
 }
+
+.storybook-button--secondary:hover {
+  background: #48A2D3;
+  border: solid 1px #48A2D3;
+  transition: 300ms;
+}
+
 .storybook-button--small {
   font-size: 12px;
   padding: 10px 16px;
